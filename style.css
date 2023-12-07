@@ -2,3 +2,59 @@
     --font-int: 'Inter', sans-serif;
     --font-open: 'Open Sans', sans-serif;
 }
+
+body  {
+    font-family: var(--font-open);
+    text-align: center;
+    margin: 0;
+}
+#hero {
+    width: 592px;
+    margin: 0 auto 72px;
+}
+#hero img {
+    margin-bottom: 72px;
+}
+h1 {
+    font-family: var(--font-int);
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom:  32px;
+}
+h1 span {
+    font-weight: bold;
+}
+span, a {
+    color: #FF9900;
+}
+
+p , #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+#balls{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+/*
+#footer {
+    font-size: 14px;
+    line-height: 28px;
+} */
+
+.line {
+    margin: auto;
+    width: 568px;
+    height: 0;
+    border:  1px solid #ECEFF2;
+    margin-bottom: 8px;
+}
+/* pega o a anterior do a */
+#footer a +a {
+    margin-left: 28px;
+}
